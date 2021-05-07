@@ -11,8 +11,8 @@ public class DemoApplication {
 
     @RequestMapping("/index")
     String index() {
-        System.out.println("Hello Spring Boot");
-        return "Hello Spring Boot";
+        System.out.println("Hello Spring Boot22222");
+        return "Hello Spring Boot22222";
     }
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
